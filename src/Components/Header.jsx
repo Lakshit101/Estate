@@ -13,11 +13,11 @@ const header = () => {
           </h1>
         </Link>
 
-        <form className=" text-slate-100  p-3 rounded-lg flex items-center ">
+        <form className=" bg-slate-100  p-3 rounded-lg flex items-center ">
           <input
             type="text"
             placeholder="Search..."
-            className="bg-transparent text-black focus:outline "
+            className="bg-transparent text-slate-900 focus:outline-none "
           ></input>
           <FaSearch className="text-slate-600" />
         </form>
